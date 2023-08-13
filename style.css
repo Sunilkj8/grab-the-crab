@@ -1,0 +1,137 @@
+
+ 
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{ 
+           height: 100%;
+           width: 100%;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           background-color: #FAF3F0;
+           color: white;
+            
+           
+          
+}
+
+h1{ 
+    font-size: 11vw;
+    opacity: 10%;
+    color: #F14A16;
+    
+    
+    top: 35vh;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+ 
+  #stuff{ 
+    position: absolute;
+     color: #F14A16;
+    font-size: 3vw;
+    display: flex;
+    left: 2vw;
+    top: 42vh;
+    gap: 4vw;
+    font-family: 'Shadows Into Light', cursive;
+    
+  }
+
+  #score{ 
+    position: relative;
+    
+    left: -10vw;
+    top: 7vh;
+  }
+  
+  .your-time{ 
+     position: relative;
+    left: 57vw;
+    font-size: 2.5vw;
+    
+    
+  }
+
+  #time-left{ 
+    position: absolute;
+    left: 80vw;
+    top: 7vh;
+  }
+
+#grid{ 
+    height: calc(100% - 60px);
+    width: 48vw;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vh 5vw;
+    z-index: 99;
+    box-shadow:5px 8px black ;
+    gap: 5px;
+}
+
+.square{ 
+    height: 27vh;
+    width: 12vw;
+    border: 2px solid black;
+}
+
+ .color{ 
+    background-image: url(https://img.freepik.com/free-vector/cute-crab-cartoon-character-wearing-snorkeling-goggles_1308-117394.jpg?w=740&t=st=1691908777~exp=1691909377~hmac=56844854b964e41c7b2a8a269c170debc52e4f9c2cd9283ea6d40b7632b56f8e);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+
+
+ .bgcolor{ 
+   border: 2px solid whitesmoke;
+ }
+
+ footer{ 
+    color: black;
+    opacity: 20%;
+    margin: 10px auto;
+}
+
+ @media (max-width:600px) {
+   
+h1 { 
+    font-size: 6vh;
+    opacity: 30%;
+}
+
+
+    #stuff{ 
+        top: 80vh;
+        font-weight: 900;
+        font-size: 2vh;
+    }
+    #grid{ 
+        border: none;
+        height: 100vh;
+        width: 100vw;
+        box-shadow: none;
+    }
+
+    .square{ 
+        height: 15vh;
+        width: 29vw;
+    }
+
+    footer{ 
+        color: black;
+        opacity: 20%;
+    }
+
+
+    
+ }
