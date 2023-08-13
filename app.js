@@ -60,7 +60,7 @@ function countDown() {
     if (currentTime == 0) {
         clearInterval(currentTimerId)
         
-        console.log('Game over your score is ' + result)
+        alert('Game over your score is ' + result)
         location.replace(location.href);
     }
 
