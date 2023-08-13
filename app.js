@@ -61,7 +61,7 @@ function countDown() {
         clearInterval(currentTimerId)
         
         alert('Game over your score is ' + result)
-        location.replace(location.href);
+        location.replace(location.href);                                    
     }
 
 
